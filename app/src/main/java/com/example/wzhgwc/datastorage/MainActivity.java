@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         tv1=(TextView) findViewById(R.id.textview);
 
     }
+
     public void spWrite(View v){
         SharedPreferences user=getSharedPreferences("user",MODE_APPEND);
         SharedPreferences.Editor editor=user.edit();
